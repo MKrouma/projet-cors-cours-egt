@@ -203,3 +203,320 @@ body{
     /* object-fit: cover; */
 }
 
+
+/* FEATURES */
+/* .features, .f-about, .f-sheet,
+.f-map, .f-contact, .f-a-subtitle, .f-a-title,
+.f-a-description{
+    border: solid red 1px;
+} */
+
+.features{
+    width: 100%;
+    height: 1400px;
+
+    padding: 50px 0;
+}
+
+.f-about{
+    width: 100%;
+    height: 15%;
+
+    padding: 10px 50px;
+}
+
+.f-a-subtitle{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-a-subtitle p{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.f-a-title{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-a-title p{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.f-a-description{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    padding: 20px;
+}
+
+.f-a-description p{
+    text-align: center;
+}
+
+
+/* .f-sheet, .fs-left, .fs-right,
+.fs-l-icon, .fs-l-title, .fs-l-descr,
+.fs-l-bullets, .fs-b-items, .fs-b-i-icon,
+.fs-b-i-descr{
+    border: solid red 1px;
+} */
+
+.f-sheet{
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* padding-top: 10px; */
+    padding: 10px 0;
+}
+
+.fs-left{
+    width: 50%;
+    height: 100%;
+
+    padding: 0px 10px 0px 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.fs-l-icon{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fs-l-icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.fs-l-title{
+    width: 100%;
+    height: 10%;
+}
+
+.fs-l-title p{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.fs-l-descr{
+    width: 100%;
+    height: 20%;
+}
+
+.fs-l-bullets{
+    width: 100%;
+    height: 40%;
+
+    padding: 10px;
+}
+
+.fs-b-items{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fs-b-i-icon{
+    width: 5%;
+    height: 100%;
+}
+
+.fs-b-i-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.fs-b-i-descr{
+    width: 95%;
+    height: 100%;
+}
+
+.fs-right{
+    width: 50%;
+    height: 100%;
+
+    padding-left: 70px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.fs-right div{
+    width: 600px;
+    height: 500px;
+}
+.fs-right div img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+
+
+
+/* .f-map, .fm-left, .fm-right,
+.fs-l-icon, .fs-l-title, .fs-l-descr,
+.fs-l-bullets, .fs-b-items, .fs-b-i-icon,
+.fs-b-i-descr{
+    border: solid red 1px;
+} */
+
+
+.f-map{
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.fm-left{
+    width: 50%;
+    height: 100%;
+
+    /* padding-left: 70px; */
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fm-left div{
+    width: 600px;
+    height: 500px;
+}
+
+.fm-left div img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+
+
+.fm-right{
+    width: 50%;
+    height: 100%;
+
+    padding: 0px 10px 0px 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.descr-toolong{
+    margin-bottom: 30px;
+}
+
+
+/* .f-contact, .fc-container, .fc-c-left,
+.fc-c-right, .fc-cl-title, .fc-cl-descr,
+.fc-cr-buttns, .fc-cr-empty{
+    border: solid red 1px;
+} */
+
+.f-contact{
+    width: 100%;
+    height: 15%;
+
+    margin-top: 50px;
+    padding: 0 7em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.fc-container{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+
+    padding: 2em 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.fc-c-left{
+    width: 70%;
+    height: 100%;
+}
+
+.fc-cl-title{
+    width: 100%;
+    height: 60%;
+}
+
+.p-title{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.fc-cl-descr{
+    width: 100%;
+    height: 40%;
+}
+
+.fc-c-right{
+    width: 30%;
+    height: 100%;
+}
+
+.fc-cr-buttns{
+    width: 100%;
+    height: 60%;
+}
+
+.fc-cr-buttns button{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+.fc-cr-empty{
+    width: 100%;
+    height: 40%;
+}

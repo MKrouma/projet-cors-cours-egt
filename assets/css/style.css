@@ -23,6 +23,10 @@ body{
 
 
 /* NAV BAR */
+.nav-bar, .nb-left, .nb-right{
+    border: solid red 1px;
+}
+
 /* .nav-bar, .nb-left, .nb-right, 
 .nbr-text, .nbr-button{
     border: solid red 1px;
@@ -32,11 +36,11 @@ body{
     width: 100%;
     height: 72px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     padding: 0 50px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .nb-left{
@@ -51,6 +55,8 @@ body{
 .nb-left div{
     width: 48px;
     height: 48px;
+
+    border: solid red 1px;
 }
 
 .nb-left div img{

@@ -23,9 +23,9 @@ body{
 
 
 /* NAV BAR */
-.nav-bar, .nb-left, .nb-right{
+/* .nav-bar, .nb-left, .nb-right, .nbr-text, .nbr-button{
     border: solid red 1px;
-}
+} */
 
 /* .nav-bar, .nb-left, .nb-right, 
 .nbr-text, .nbr-button{
@@ -56,7 +56,7 @@ body{
     width: 48px;
     height: 48px;
 
-    border: solid red 1px;
+    /* border: solid red 1px; */
 }
 
 .nb-left div img{
@@ -85,7 +85,7 @@ body{
 }
 
 .nbr-text p{
-    height: 32;
+    /* height: 32; */
     color: var(--gray);
     font-size: 16px;
 }
